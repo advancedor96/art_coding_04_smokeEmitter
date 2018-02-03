@@ -1,0 +1,37 @@
+html, body{
+	min-height: 100vh;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+*{
+	position: relative;
+}
+html{
+	font-size: 12px;
+}
+
+.title{
+	color: white;
+	position: absolute;
+	z-index: 1;
+	font-size: x-large;
+	margin: 10px 20px;
+}
+#mycanvas{
+	position: absolute;
+}
+.ref{
+
+	color: #9e9e9e;
+	position: absolute;
+	z-index: 1;
+	font-size: medium;
+	margin: 40px 20px;
+	bottom: 0px;
+}
+.ref> a{
+	color: #9e9e9e;
+}
